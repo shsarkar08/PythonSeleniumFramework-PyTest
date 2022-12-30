@@ -1,0 +1,137 @@
+2022-12-28 22:05:07,350 test || INFO || HomePage.py -> launchUrl() || Launching HPF URL
+2022-12-28 22:05:07,362 test || ERROR || HomePage.py -> launchUrl() || Seems The VPN is not connected
+NoneType: None
+2022-12-28 22:07:46,829 test || INFO || HomePage.py -> launchUrl() || Launching HPF URL
+2022-12-28 22:07:46,849 test || ERROR || HomePage.py -> launchUrl() || Verify if The VPN is connected
+NoneType: None
+2022-12-28 22:10:16,762 test || INFO || HomePage.py -> launchUrl() || Launching HPF URL
+2022-12-28 22:10:16,775 test || ERROR || HomePage.py -> launchUrl() || Verify if The VPN is connected
+2022-12-29 12:19:20,431 test || INFO || HomePage.py -> launchUrl() || Launching HPF URL
+2022-12-29 12:19:20,444 test || ERROR || HomePage.py -> launchUrl() || Verify if The VPN is connected
+2022-12-29 12:43:47,888 test || INFO || HomePage.py -> launchUrl() || Launching HPF URL
+2022-12-29 12:43:47,901 test || ERROR || HomePage.py -> launchUrl() || Verify if The VPN is connected
+2022-12-29 13:35:40,821 || INFO || HomePage.py -> launchUrl() -> 14 || Launching HPF URL
+2022-12-29 13:35:40,835 || ERROR || HomePage.py -> launchUrl() -> 16 || Verify if The VPN is connected
+2022-12-29 13:40:22,099 || INFO || HomePage.py -> launchUrl() -> [line:14] || Launching HPF URL
+2022-12-29 13:40:22,109 || ERROR || HomePage.py -> launchUrl() -> [line:16] || Verify if The VPN is connected
+2022-12-30 12:45:24,473 || INFO || HomePage.py -> launchUrl() -> [line:14] || Launching HPF URL
+2022-12-30 12:45:24,480 || ERROR || HomePage.py -> launchUrl() -> [line:16] || Verify if The VPN is connected
+2022-12-30 12:48:13,930 || INFO || HomePage.py -> launchUrl() -> [line:14] || Launching HPF URL
+2022-12-30 12:48:22,829 || INFO || HomePage.py -> clickSignIn() -> [line:21] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 12:48:22,840 || INFO || HomePage.py -> clickSignIn() -> [line:22] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=5rlBLs6wd06yYJjbfZkfFo8xhMd8erQ0
+2022-12-30 12:48:25,637 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 12:48:25,647 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=RmVh5UlQi7_cxIDGwPis4ZCdDBkjrF_gh5R_SICZG3LIPPfiUt_P!-1136983323
+2022-12-30 12:48:27,661 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:18] || ==== CreateAccountPage Test Begins =====
+2022-12-30 12:48:27,765 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Kenneth4069
+2022-12-30 12:48:27,966 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 12:48:28,146 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 12:48:28,354 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Kenneth4069@mailinator.com
+2022-12-30 12:48:28,524 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Kenneth4069@mailinator.com
+2022-12-30 12:48:35,404 || INFO || CreateAccountPage.py -> urlVerify() -> [line:25] || Navigated to Page: About You | Washington Healthplanfinder
+2022-12-30 12:48:35,405 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:21] || ==== End of Test for Tests.Scripts.test_CreateAccountPage =====
+2022-12-30 19:43:39,977 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 19:43:50,312 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 19:43:50,328 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=IW3G1cmz7jqqprgnLzDFLOyCsvaGzAMq
+2022-12-30 19:43:53,741 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 19:43:53,761 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=j8RjYaDYzEZM7FFSDNbTaCwUYO60Qua3m1ZawCZxHNeyDenoM8Hz!-420867708
+2022-12-30 19:43:55,777 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:18] || ==== CreateAccountPage Test Begins =====
+2022-12-30 19:43:55,911 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Peter2752
+2022-12-30 19:43:56,158 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 19:43:56,374 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 19:43:56,601 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Peter2752@mailinator.com
+2022-12-30 19:43:56,797 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Peter2752@mailinator.com
+2022-12-30 19:44:05,259 || INFO || CreateAccountPage.py -> urlVerify() -> [line:25] || Navigated to Page: About You | Washington Healthplanfinder
+2022-12-30 19:44:05,260 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:21] || ==== End of Test for Tests.Scripts.test_CreateAccountPage =====
+2022-12-30 19:44:18,766 || INFO || test_HomePage.py -> test_clickSignIn() -> [line:9] || ==== Homepage Test Begins =====
+2022-12-30 19:44:24,255 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 19:44:29,589 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 19:44:29,599 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=lR5VAu8FODatVIZHHIYNJ3kqWDqjV2jH
+2022-12-30 19:44:29,600 || INFO || test_HomePage.py -> test_clickSignIn() -> [line:12] || ==== End of Test for Tests.Scripts.test_HomePage =====
+2022-12-30 19:44:48,285 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 19:44:53,733 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 19:44:53,744 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=VdzfV0gaiMICC76tyBBlA7NIqn8xLUoc
+2022-12-30 19:44:53,759 || INFO || test_LoginPage.py -> test_clickCreateAccountLink() -> [line:14] || ==== LoginPage Test Begins =====
+2022-12-30 19:44:57,428 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 19:44:57,448 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=_gZjYqqJvTyxA63yAMYlj-J7pOmwMtAhNmQXr4OGSGKE4ihr30et!-1136983323
+2022-12-30 19:44:59,457 || INFO || test_LoginPage.py -> test_clickCreateAccountLink() -> [line:16] || ==== End of Test for Tests.Scripts.test_LoginPage =====
+2022-12-30 19:48:30,162 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 19:48:37,102 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 19:48:37,113 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=pLAhatb6CYeqtmFDKeYEO2brRwYNCDaU
+2022-12-30 19:48:37,134 || INFO || test_LoginPage.py -> test_clickCreateAccountLink() -> [line:14] || ==== LoginPage Test Begins =====
+2022-12-30 19:48:39,427 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 19:48:39,433 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=p-pjZg5oAY3m2gY5SwXU3CLPM5zRxUf2aJ4A0L6hw1GeodOQRiZv!-1136983323
+2022-12-30 19:48:41,435 || INFO || test_LoginPage.py -> test_clickCreateAccountLink() -> [line:16] || ==== End of Test for Tests.Scripts.test_LoginPage =====
+2022-12-30 19:53:46,341 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 19:53:53,078 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 19:53:53,089 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=vtj3JETozQFMVZVeeOGLX9dmGd9K4swj
+2022-12-30 19:53:53,110 || INFO || test_LoginPage.py -> test_clickCreateAccountLink() -> [line:14] || ==== LoginPage Test Begins =====
+2022-12-30 19:53:56,166 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 19:53:56,175 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=iyhjauHoSIH3JMry0ham16AzKzb8r6LGLnbQW8WfXILGu3WQgdBY!-420867708
+2022-12-30 19:53:58,180 || INFO || test_LoginPage.py -> test_clickCreateAccountLink() -> [line:16] || ==== End of Test for Tests.Scripts.test_LoginPage =====
+2022-12-30 20:17:01,190 || INFO || test_HomePage.py -> test_clickSignIn() -> [line:9] || ==== Homepage Test Begins =====
+2022-12-30 20:17:07,738 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 20:17:14,430 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 20:17:14,441 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=hTdsRLaiDwonSiYt5lk71nNlvePfT03h
+2022-12-30 20:17:14,442 || INFO || test_HomePage.py -> test_clickSignIn() -> [line:12] || ==== End of Test for Tests.Scripts.test_HomePage =====
+2022-12-30 20:45:34,719 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 20:45:40,323 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 20:45:40,355 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=fkk88f3h8qHNWne06hlATOLwLMH5rQi4
+2022-12-30 20:45:41,698 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 20:45:41,715 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=-SNjmk-htgqbGvhl7gIznxJlcX48xUYQbG3sXqdwWu552PZJb0GO!-420867708
+2022-12-30 20:45:43,729 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:18] || ==== CreateAccountPage Test Begins =====
+2022-12-30 20:45:43,810 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Dakota5738
+2022-12-30 20:45:43,903 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 20:45:43,968 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 20:45:44,053 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Dakota5738@mailinator.com
+2022-12-30 20:45:44,117 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Dakota5738@mailinator.com
+2022-12-30 20:45:50,891 || INFO || CreateAccountPage.py -> urlVerify() -> [line:25] || Navigated to Page: About You | Washington Healthplanfinder
+2022-12-30 20:45:50,891 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:21] || ==== End of Test for Tests.Scripts.test_CreateAccountPage =====
+2022-12-30 20:47:19,342 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 20:47:24,915 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 20:47:24,919 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=DzaBZImnPERY3kiSnBhKPahzk21E28kf
+2022-12-30 20:47:26,376 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 20:47:26,383 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=u_hjm-hWXfEEd2uarKllDpr0hiOtMf8jWdBCLG6JtsGKKFz6rTpq!-420867708
+2022-12-30 20:47:28,394 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:18] || ==== CreateAccountPage Test Begins =====
+2022-12-30 20:47:28,506 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Angela7780
+2022-12-30 20:47:28,634 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 20:47:28,710 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 20:47:28,791 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Angela7780@mailinator.com
+2022-12-30 20:47:28,868 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Angela7780@mailinator.com
+2022-12-30 20:47:35,580 || INFO || CreateAccountPage.py -> urlVerify() -> [line:25] || Navigated to Page: About You | Washington Healthplanfinder
+2022-12-30 20:47:35,580 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:21] || ==== End of Test for Tests.Scripts.test_CreateAccountPage =====
+2022-12-30 21:33:03,302 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 21:33:13,330 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 21:33:13,381 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=FmWaCONx1SZ4SZ2hIgiJz1rHtnuAIcZ0
+2022-12-30 21:33:16,117 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 21:33:16,159 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=w3Jjxc_gVw7_JYN-LXoCfFsxCTOaTyjiTbUdxy76WvDgx3VhAeGC!-1136983323
+2022-12-30 21:33:18,176 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:18] || ==== CreateAccountPage Test Begins =====
+2022-12-30 21:33:18,289 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Timothy449
+2022-12-30 21:33:18,460 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 21:33:18,565 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 21:33:18,706 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Timothy449@mailinator.com
+2022-12-30 21:33:18,793 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Timothy449@mailinator.com
+2022-12-30 21:33:26,808 || INFO || CreateAccountPage.py -> urlVerify() -> [line:25] || Navigated to Page: About You | Washington Healthplanfinder
+2022-12-30 21:33:26,809 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:21] || ==== End of Test for Tests.Scripts.test_CreateAccountPage =====
+2022-12-30 21:37:14,276 || INFO || test_HomePage.py -> test_clickSignIn() -> [line:9] || ==== Homepage Test Begins =====
+2022-12-30 21:37:22,115 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 21:37:29,087 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 21:37:29,093 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=3AnmNTlIHowtfxBQ4pCNG7laCU9zdIbT
+2022-12-30 21:37:29,094 || INFO || test_HomePage.py -> test_clickSignIn() -> [line:12] || ==== End of Test for Tests.Scripts.test_HomePage =====
+2022-12-30 21:42:58,466 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 21:43:04,840 || INFO || HomePage.py -> clickSignIn() -> [line:19] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 21:43:04,850 || INFO || HomePage.py -> clickSignIn() -> [line:20] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=UnxFquwIQ0gXYdOUKZGBTHg29Hev40yl
+2022-12-30 21:43:09,869 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
+2022-12-30 21:43:09,881 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=g1pjztvou7oQbaSlPOmKEEPOsibW8n-bbqSSY7wb8C0JeHqPG-EZ!-1136983323
+2022-12-30 21:43:11,906 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:18] || ==== CreateAccountPage Test Begins =====
+2022-12-30 21:43:12,034 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Ryan4351
+2022-12-30 21:43:12,247 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 21:43:12,426 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2022-12-30 21:43:12,603 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Ryan4351@mailinator.com
+2022-12-30 21:43:12,769 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Ryan4351@mailinator.com
+2022-12-30 21:43:27,419 || INFO || CreateAccountPage.py -> urlVerify() -> [line:25] || Navigated to Page: About You | Washington Healthplanfinder
+2022-12-30 21:43:27,419 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:21] || ==== End of Test for Tests.Scripts.test_CreateAccountPage =====
+2022-12-30 21:47:17,155 || INFO || test_HomePage.py -> test_clickSignIn() -> [line:9] || ==== Homepage Test Begins =====
+2022-12-30 21:47:23,788 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2022-12-30 21:47:30,932 || INFO || HomePage.py -> clickSignIn() -> [line:21] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2022-12-30 21:47:30,941 || INFO || HomePage.py -> clickSignIn() -> [line:22] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=Rd0YQSRrWQ3uvsJ3O0QiVLLoipTvNJgK
+2022-12-30 21:47:30,941 || INFO || test_HomePage.py -> test_clickSignIn() -> [line:12] || ==== End of Test for Tests.Scripts.test_HomePage =====
