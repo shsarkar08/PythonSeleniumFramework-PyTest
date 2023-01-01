@@ -16,6 +16,7 @@ class HomePage(BasePage):
             raise Exception
         else:
             self.driver.save_screenshot('./Screenshots/Test.png')
+            self.logger.info('URL launched successfully')
 
     def clickSignIn(self):
         self.click(PageLocators.SignInLink)
