@@ -1,28 +1,31 @@
-version: 1
 formatters:
-    simple:
-        format: '%(asctime)s %(filename)s: %(message)s'
-    extended:
-        format: '%(asctime)s || %(levelname)s || %(filename)s -> %(funcName)s() -> [line:%(lineno)d] || %(message)s'
+  extended:
+    format: '%(asctime)s || %(levelname)s || %(filename)s -> %(funcName)s() -> [line:%(lineno)d]
+      || %(message)s'
+  simple:
+    format: '%(asctime)s %(filename)s: %(message)s'
 handlers:
-    console:
-        class: logging.StreamHandler
-        level: DEBUG
-        formatter: simple
-        stream: 'ext://sys.stdout'
-    file_handler:
-        class: logging.FileHandler
-        level: INFO
-        filename: './Logs/Test.log'
-        formatter: extended
-        mode: 'a'
-
+  console:
+    class: logging.StreamHandler
+    formatter: simple
+    level: DEBUG
+    stream: ext://sys.stdout
+  file_handler:
+    class: logging.FileHandler
+    filename: Logs/TestLog_01-01-2023 19-33-03.log
+    formatter: extended
+    level: INFO
+    mode: a
 loggers:
   dev:
-    handlers: [console, file_handler]
+    handlers:
+    - console
+    - file_handler
   test:
-    handlers: [file_handler]
-
+    handlers:
+    - file_handler
 root:
-    level: DEBUG
-    handlers: [console]
+  handlers:
+  - console
+  level: DEBUG
+version: 1

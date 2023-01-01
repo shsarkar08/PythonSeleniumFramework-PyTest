@@ -1,8 +1,8 @@
 from selenium.common.exceptions import *
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as cond
-
-from Utilities.Logger import Pylog
+from Utilities.Logger_new import Pylog
+# from Utilities.Logger import Pylog
 
 
 class BasePage:

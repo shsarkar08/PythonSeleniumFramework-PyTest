@@ -11,6 +11,7 @@ class HomePage(BasePage):
         self.launchurl(TestData.BASE_URL_UAT1)
         self.logger.info('Launching HPF URL')
         if self.driver.title == TestData.ACCESS_DENIED:
+            self.driver.save_screenshot('./Screenshots/AccessDenied.png')
             self.logger.error('Verify if The VPN is connected')
             raise Exception
         else:

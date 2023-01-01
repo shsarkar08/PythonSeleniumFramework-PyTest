@@ -439,7 +439,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>Test Automation Report</h1>
-    <p>Report generated on 30-Dec-2022 at 19:45:01 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 01-Jan-2023 at 19:33:06 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -455,8 +455,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Tester</td>
         <td>Shahnawaz</td></tr></table>
     <h2>Summary</h2>
-    <p>3 tests ran in 100.88 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 9.52 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -467,30 +467,17 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="failed results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">Tests/Scripts/test_CreateAccountPage.py::TestCreateAccount::test_createAccount</td>
-          <td class="col-duration">46.55</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
+          <td class="col-result">Failed</td>
           <td class="col-name">Tests/Scripts/test_HomePage.py::TestHome::test_clickSignIn</td>
-          <td class="col-duration">24.30</td>
+          <td class="col-duration">9.21</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">Tests/Scripts/test_LoginPage.py::TestLogin::test_clickCreateAccountLink</td>
-          <td class="col-duration">29.90</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log">self = &lt;Tests.Scripts.test_HomePage.TestHome object at 0x00000216834C43D0&gt;<br/><br/>    def test_clickSignIn(self):<br/>        self.homepage = HomePage(self.driver)<br/>        self.homepage.logger.info(&#x27;==== Homepage Test Begins =====&#x27;)<br/>&gt;       self.homepage.launchUrl()<br/><br/>Tests\Scripts\test_HomePage.py:10: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;Src.PageObjects.Pages.HomePage.HomePage object at 0x00000216835387C0&gt;<br/><br/>    def launchUrl(self):<br/>        self.launchurl(TestData.BASE_URL_UAT1)<br/>        self.logger.info(&#x27;Launching HPF URL&#x27;)<br/>        if self.driver.title == TestData.ACCESS_DENIED:<br/>            self.driver.save_screenshot(&#x27;./Screenshots/AccessDenied.png&#x27;)<br/>            self.logger.error(&#x27;Verify if The VPN is connected&#x27;)<br/>&gt;           raise Exception<br/><span class="error">E           Exception</span><br/><br/>Src\PageObjects\Pages\HomePage.py:16: Exception<br/> -----------------------------Captured stdout setup------------------------------ <br/>
+Browser from getbrowser method: chrome 
+<br/> ------------------------------Captured stdout call------------------------------ <br/>2023-01-01 19:33:03,322 test_HomePage.py: ==== Homepage Test Begins =====
+2023-01-01 19:33:03,958 HomePage.py: Launching HPF URL
+2023-01-01 19:33:04,170 HomePage.py: Verify if The VPN is connected
+<br/></div></td></tr></tbody></table></body></html>
