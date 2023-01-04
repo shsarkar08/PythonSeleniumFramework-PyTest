@@ -27,10 +27,12 @@ class Pylog:
 
         except Exception as e:
             print(f'Error: {e},\nNeed to use Default logging')
-            logging.basicConfig(filename='.\\Logs\\BaseConfigLog',
-                                format='%(asctime)s %(levelname)s: %(message)s',
-                                level=Pylog.DEFAULT_LEVEL
-                                )
+            logging.basicConfig(level=Pylog.DEFAULT_LEVEL)
+
+            # logging.basicConfig(filename='Test.log',
+            #                     format='%(asctime)s %(levelname)s: %(message)s',
+            #                     level=Pylog.DEFAULT_LEVEL
+            #                     )
 
         logger = logging.getLogger(__name__)
         # logger.info('Logger setup successful')

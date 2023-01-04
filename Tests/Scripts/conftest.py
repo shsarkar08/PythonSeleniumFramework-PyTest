@@ -52,24 +52,26 @@ def init_driver(request, getbrowser):
 
 #   Pytest HTML Report hook for adding info on Environment Section
 # def pytest_configure(config):
-#     config._metadata['Project Name'] = 'HPF'
-#     # config._metadata['Module Name'] = 'Create Account'
+#     config._metadata['Project Name'] = 'Test_Proj'
 #     config._metadata['Tester'] = 'Shahnawaz'
 
 
 #   Pytest HTML Report hook for dynamic report name,path
 def pytest_configure(config):
-    config._metadata['Project Name'] = 'HPF'
+    config._metadata['Project Name'] = 'Test_Proj'
     config._metadata['Tester'] = 'Shahnawaz'
-    # config._metadata['Browser'] = config.getoption('--browser')
+    config._metadata['Browser'] = config.getoption('--browser')
 
     # set custom options only if none are provided from command line
+
     if not config.option.htmlpath:
         now = datetime.now()
         # create report target dir
-        if not os.path.exists('Reports'):
-            os.makedirs('Reports')
-        report = 'Reports/'+f"report_{now.strftime('%d-%m-%Y %H-%M-%S')}"+'.html'
+        # if not os.path.exists('Reports'):
+        #     os.makedirs('Reports')
+        root_dir = os.path.split(os.environ['VIRTUAL_ENV'])[0]
+        report_dir = root_dir+'/'+'Reports'
+        report = report_dir + '/' + f"report_{now.strftime('%d-%m-%Y %H-%M-%S')}"+'.html'
         config.option.htmlpath = report
         # set it to False in case of any encoding issue
         config.option.self_contained_html = True

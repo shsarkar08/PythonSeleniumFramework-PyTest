@@ -1,0 +1,4 @@
+2023-01-04 01:47:19,157 || INFO || HomePage.py -> launchUrl() -> [line:12] || Launching HPF URL
+2023-01-04 01:47:19,720 || INFO || HomePage.py -> launchUrl() -> [line:19] || URL launched successfully
+2023-01-04 01:47:26,145 || INFO || HomePage.py -> clickSignIn() -> [line:23] || Navigated to Page: Sign in to your account | Washington Healthplanfinder
+2023-01-04 01:47:26,157 || INFO || HomePage.py -> clickSignIn() -> [line:24] || URL: https://uat.wahpf.org/HBEWeb/Annon_DisplayHomePage.action?request_locale=en&id=JKv0FdyrBSrY1Xtd7fSjhidxvUYvdASH

@@ -1,0 +1,8 @@
+2023-01-04 01:47:30,480 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:18] || ==== CreateAccountPage Test Begins =====
+2023-01-04 01:47:30,578 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Troy887
+2023-01-04 01:47:30,793 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2023-01-04 01:47:30,972 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Shah0893#
+2023-01-04 01:47:31,169 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Troy887@mailinator.com
+2023-01-04 01:47:31,330 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Troy887@mailinator.com
+2023-01-04 01:47:38,692 || INFO || CreateAccountPage.py -> urlVerify() -> [line:24] || Navigated to Page: About You | Washington Healthplanfinder
+2023-01-04 01:47:38,693 || INFO || test_CreateAccountPage.py -> test_createAccount() -> [line:21] || ==== End of Test for Tests.Scripts.test_CreateAccountPage =====
