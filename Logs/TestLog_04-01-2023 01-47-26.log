@@ -1,2 +1,0 @@
-2023-01-04 01:47:28,444 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:13] || Navigated to page: Create an Account | Washington Healthplanfinder
-2023-01-04 01:47:28,454 || INFO || LoginPage.py -> clickCreateNewAccount() -> [line:14] || URL: https://uat.wahpf.org/HBEWeb/Annon_ValidateCreateAccount.action;jsessionid=8oZ5SAIeiKjvA_yYNY-6QQ7w5xkqoW9-41dUNc7HrsYebSd1gA2C!-420867708
