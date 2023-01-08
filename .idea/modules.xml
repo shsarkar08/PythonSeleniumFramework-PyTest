@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/HPFAutoPy.iml" filepath="$PROJECT_DIR$/.idea/HPFAutoPy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SelPyTest.iml" filepath="$PROJECT_DIR$/.idea/SelPyTest.iml" />
     </modules>
   </component>
 </project>
