@@ -1,0 +1,27 @@
+1673289404689	geckodriver	INFO	Listening on 127.0.0.1:60980
+1673289405155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "--remote-debugging-port" "60981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SHAHSA~1\\AppData\\Local\\Temp\\rust_mozprofileOveWJS"
+1673289407555	Marionette	INFO	Marionette enabled
+1673289407572	Marionette	INFO	Listening on port 60988
+Read port: 60988
+WebDriver BiDi listening on ws://127.0.0.1:60981
+1673289407932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SHAHSA~1\\AppData\\Local\\Temp\\rust_mozprofileOveWJS\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+DevTools listening on ws://127.0.0.1:60981/devtools/browser/ba02da30-0fab-4204-9397-a43ab5931f4f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1673289426787	Marionette	INFO	Stopped listening on port 60988
+1673289815193	geckodriver	INFO	Listening on 127.0.0.1:61124
+1673289815675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "--remote-debugging-port" "61125" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SHAHSA~1\\AppData\\Local\\Temp\\rust_mozprofilewOUO1W"
+1673289817119	Marionette	INFO	Marionette enabled
+1673289817128	Marionette	INFO	Listening on port 61132
+Read port: 61132
+WebDriver BiDi listening on ws://127.0.0.1:61125
+1673289817448	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SHAHSA~1\\AppData\\Local\\Temp\\rust_mozprofilewOUO1W\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+DevTools listening on ws://127.0.0.1:61125/devtools/browser/25c0c8ba-34eb-4aea-a603-6e3adefc4774
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1673289834390	Marionette	INFO	Stopped listening on port 61132
+[GFX1]: RenderDXGITextureHost AcquireSync timeout, hr=0x102
