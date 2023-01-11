@@ -14,13 +14,12 @@ class LoginPage(BasePage):
         time.sleep(2)
         login_page_title = self.findelement(PageLocators.LoginTitle).text
         if login_page_title == TestData.LOGIN_PAGE_TITLE:
-            assert True
             self.driver.save_screenshot('./Screenshots/LoginPage.png')
             self.logger.info('OrangeHRM url launched successfully')
         else:
             self.logger.info('Unable to launch OrangeHRM url')
             self.driver.save_screenshot('./Screenshots/UrlLaunchErr.png')
-            assert False
+            raise Exception
 
     def adminLogin(self):
         self.set_text_value(PageLocators.AdmUsername, TestData.ADMIN_USERNAME)

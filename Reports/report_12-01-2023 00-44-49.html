@@ -439,7 +439,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>Test Automation Report</h1>
-    <p>Report generated on 09-Jan-2023 at 00:20:15 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 12-Jan-2023 at 00:45:13 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -458,7 +458,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Tester</td>
         <td>Shahnawaz</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 16.71 seconds. </p>
+    <p>1 tests ran in 24.57 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -473,18 +473,20 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">Tests/Scripts/test_LoginPage.py::TestLogin::test_clickCreateAccountLink</td>
-          <td class="col-duration">16.64</td>
+          <td class="col-name">Tests/Scripts/test_ForgetPasswordPage.py::TestForgetPassword::test_resetPassword</td>
+          <td class="col-duration">24.46</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>
 Browser from getbrowser method: chrome 
-<br/> ------------------------------Captured stdout call------------------------------ <br/>2023-01-09 00:20:04,474 test_LoginPage.py: ==== LoginPage Test Begins =====
-2023-01-09 00:20:07,693 LoginPage.py: Launching OrangeHRM URL
-2023-01-09 00:20:09,748 BasePage.py: Entered Value: Admin
-2023-01-09 00:20:09,810 BasePage.py: Entered Value: admin123
-2023-01-09 00:20:10,940 LoginPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2023-01-09 00:20:10,954 test_LoginPage.py: Navigated to Dashboard Successfully
-2023-01-09 00:20:13,226 test_LoginPage.py: ==== End of Test for Tests.Scripts.test_LoginPage =====
+<br/> ------------------------------Captured stdout call------------------------------ <br/>2023-01-12 00:44:59,763 LoginPage.py: Launching OrangeHRM URL
+2023-01-12 00:45:01,952 LoginPage.py: OrangeHRM url launched successfully
+2023-01-12 00:45:01,958 test_ForgetPasswordPage.py: ==== ForgetPasswordPage Test Begins =====
+2023-01-12 00:45:02,414 ForgetPasswordPage.py: Navigating to Reset Password Page
+2023-01-12 00:45:04,420 test_ForgetPasswordPage.py: Navigated to Password Reset Successfully
+2023-01-12 00:45:06,647 BasePage.py: Entered Value: Derek8705
+2023-01-12 00:45:07,340 test_ForgetPasswordPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/sendPasswordReset
+2023-01-12 00:45:09,363 test_ForgetPasswordPage.py: Password Reset link has been sent
+2023-01-12 00:45:11,499 test_ForgetPasswordPage.py: ==== End of Test for Tests.Scripts.test_ForgetPasswordPage =====
 <br/></div></td></tr></tbody></table></body></html>

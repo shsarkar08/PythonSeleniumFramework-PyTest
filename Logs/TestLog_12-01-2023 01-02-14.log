@@ -1,0 +1,2 @@
+2023-01-12 01:02:18,686 || INFO || LoginPage.py -> launchURL() -> [line:13] || Launching OrangeHRM URL
+2023-01-12 01:02:20,897 || INFO || LoginPage.py -> launchURL() -> [line:18] || OrangeHRM url launched successfully

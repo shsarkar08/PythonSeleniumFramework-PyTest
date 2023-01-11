@@ -439,7 +439,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>Test Automation Report</h1>
-    <p>Report generated on 08-Jan-2023 at 23:24:21 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 12-Jan-2023 at 01:02:48 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -458,8 +458,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Tester</td>
         <td>Shahnawaz</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 17.51 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 39.14 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -473,18 +473,39 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">Tests/Scripts/test_LoginPage.py::TestLogin::test_clickCreateAccountLink</td>
-          <td class="col-duration">17.42</td>
+          <td class="col-name">Tests/Scripts/test_ForgetPasswordPage.py::TestForgetPassword::test_resetPassword</td>
+          <td class="col-duration">21.66</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>
 Browser from getbrowser method: chrome 
-<br/> ------------------------------Captured stdout call------------------------------ <br/>2023-01-08 23:24:10,091 test_LoginPage.py: ==== LoginPage Test Begins =====
-2023-01-08 23:24:14,028 LoginPage.py: Launching OrangeHRM URL
-2023-01-08 23:24:16,087 BasePage.py: Entered Value: Admin
-2023-01-08 23:24:16,151 BasePage.py: Entered Value: admin123
-2023-01-08 23:24:17,336 LoginPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2023-01-08 23:24:17,479 test_LoginPage.py: Navigated to Dashboard Successfully
-2023-01-08 23:24:19,494 test_LoginPage.py: ==== End of Test for Tests.Scripts.test_LoginPage =====
+<br/> ------------------------------Captured stdout call------------------------------ <br/>2023-01-12 01:02:18,686 LoginPage.py: Launching OrangeHRM URL
+2023-01-12 01:02:20,897 LoginPage.py: OrangeHRM url launched successfully
+2023-01-12 01:02:20,904 test_ForgetPasswordPage.py: ==== ForgetPasswordPage Test Begins =====
+2023-01-12 01:02:21,368 ForgetPasswordPage.py: Navigating to Reset Password Page
+2023-01-12 01:02:23,375 test_ForgetPasswordPage.py: Navigated to Password Reset Page Successfully
+2023-01-12 01:02:24,601 BasePage.py: Entered Value: Amy4642
+2023-01-12 01:02:25,281 test_ForgetPasswordPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/sendPasswordReset
+2023-01-12 01:02:26,311 test_ForgetPasswordPage.py: Password Reset link has been sent
+2023-01-12 01:02:28,476 test_ForgetPasswordPage.py: ==== End of Test for Tests.Scripts.test_ForgetPasswordPage =====
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">Tests/Scripts/test_LoginPage.py::TestLogin::test_adminLogin</td>
+          <td class="col-duration">17.36</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>
+Browser from getbrowser method: chrome 
+<br/> ------------------------------Captured stdout call------------------------------ <br/>2023-01-12 01:02:36,467 test_LoginPage.py: ==== LoginPage Test Begins =====
+2023-01-12 01:02:39,102 LoginPage.py: Launching OrangeHRM URL
+2023-01-12 01:02:41,318 LoginPage.py: OrangeHRM url launched successfully
+2023-01-12 01:02:41,367 BasePage.py: Entered Value: Admin
+2023-01-12 01:02:41,431 BasePage.py: Entered Value: admin123
+2023-01-12 01:02:42,587 LoginPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2023-01-12 01:02:42,592 test_LoginPage.py: Navigated to Dashboard Successfully
+2023-01-12 01:02:45,802 test_LoginPage.py: ==== End of Test for Tests.Scripts.test_LoginPage =====
 <br/></div></td></tr></tbody></table></body></html>

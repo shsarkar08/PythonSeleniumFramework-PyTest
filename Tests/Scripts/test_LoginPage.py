@@ -6,7 +6,7 @@ from Configs.Config import TestData
 
 class TestLogin(TestBase):
 
-    def test_clickCreateAccountLink(self):
+    def test_adminLogin(self):
         self.loginPage = LoginPage(self.driver)
 
         self.loginPage.logger.info('==== LoginPage Test Begins =====')
@@ -18,5 +18,5 @@ class TestLogin(TestBase):
             time.sleep(2)
             self.driver.save_screenshot('./Screenshots/DashBoardPage.png')
         else:
-            assert False
+            raise Exception
         self.loginPage.logger.info(f'==== End of Test for {__name__} =====')
