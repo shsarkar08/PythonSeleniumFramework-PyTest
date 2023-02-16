@@ -22,7 +22,7 @@ class TestData:
     DASHBOARD_URL = 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'
     PWD_RESET_URL = 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/requestPasswordResetCode'
     ADMIN_MODULE_URL = 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers'
-    ADD_USER_PAGE = 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser'
+    ADD_USER_PAGE_URL = 'https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser'
 
     ADMIN_USERNAME = 'Admin'
     ADMIN_PASSWORD = 'admin123'
