@@ -15,4 +15,16 @@ ResetBtn = (By.XPATH, "//button[@type='submit' and contains(@class,'orangehrm-fo
 resetPwdSuccessText = (By.XPATH, "//*[contains(@class,'orangehrm-forgot-password-title')]")
 
 # DASHBOARD_PAGE
-# TO BE UPDATED
+AdminModule = (By.XPATH, "//a[contains(@href,'viewAdminModule')]")
+AdminTopbarHeader = (By.XPATH, "//span[@class='oxd-topbar-header-breadcrumb']")
+AddBtn = (By.XPATH, "//button[contains(@class,'oxd-button') and contains(.,'Add')]")
+
+# ADDUSER_PAGE
+UserRole = (By.XPATH, "")
+EmployeeName = (By.XPATH, "//div[contains(@class,'oxd-autocomplete-text-input')]/input")
+EmployeeNameSuggestions = (By.XPATH, "//div[@role='listbox']/div[@role='option']/span")
+Status = (By.XPATH, "")
+EmpUsername = (By.XPATH, "//label[contains(.,'Username')]/parent::div/following-sibling::div/input")
+Password = (By.XPATH, "(//label[contains(text(),'Password')]/parent::div/following-sibling::div/input)[1]")
+ConfirmPassword = (By.XPATH, "(//label[contains(text(),'Password')]/parent::div/following-sibling::div/input)[2]")
+SaveBtn = (By.XPATH, "//button[@type='submit' and contains(.,'Save')]")
