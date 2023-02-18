@@ -46,3 +46,6 @@ class BasePage:
 
         except Exception:
             self.logger.error('Unable to set text', exc_info=True)
+
+    def splitlines(self, value):
+        return ''.join(value.splitlines())

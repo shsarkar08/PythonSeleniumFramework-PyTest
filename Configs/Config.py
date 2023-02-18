@@ -28,7 +28,7 @@ class TestData:
     ADMIN_PASSWORD = 'admin123'
     LOGIN_PAGE_TITLE = 'Login'
     RESET_PWD_SUCCESS = 'Reset Password link sent successfully'
-    ADMIN_MODULE_TOPBAR_TEXT = 'User Management'
+    ADMIN_MODULE_TOPBAR_TEXT = 'AdminUser Management'
     ADMIN_EMPLOYEE_NAME = 'Paul'
 
     USERNAME = data_usergen()

@@ -1,0 +1,7 @@
+2023-02-18 21:47:32,674 || INFO || test_Dashboard.py -> test_addUser() -> [line:16] || ==== DashboardPage Test Begins =====
+2023-02-18 21:47:34,742 || INFO || DashboardPage.py -> navigateToAdminModule() -> [line:14] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2023-02-18 21:47:36,768 || INFO || test_Dashboard.py -> test_addUser() -> [line:21] || Navigated to Admin module successfully
+2023-02-18 21:47:37,102 || INFO || test_Dashboard.py -> test_addUser() -> [line:29] || Header: AdminUser Management
+2023-02-18 21:47:37,841 || INFO || DashboardPage.py -> navigateToAddUser() -> [line:19] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+2023-02-18 21:47:39,855 || INFO || test_Dashboard.py -> test_addUser() -> [line:35] || Navigated to Add user page successfully
+2023-02-18 21:47:40,081 || INFO || test_Dashboard.py -> test_addUser() -> [line:40] || ==== End of Test for Tests.Scripts.test_Dashboard =====
