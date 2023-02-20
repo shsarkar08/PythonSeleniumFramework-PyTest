@@ -28,9 +28,12 @@ class TestData:
     ADMIN_PASSWORD = 'admin123'
     LOGIN_PAGE_TITLE = 'Login'
     RESET_PWD_SUCCESS = 'Reset Password link sent successfully'
+
     ADMIN_MODULE_TOPBAR_TEXT = 'AdminUser Management'
     ADMIN_EMPLOYEE_NAME = 'Paul'
+    USER_ROLE = 'Admin'
+    USER_STATUS = 'Enabled'
 
     USERNAME = data_usergen()
-    PASSWORD = 'ShahTest#'
+    PASSWORD = 'ShahTest#8'
     EMAIL = USERNAME+'@mailinator.com'

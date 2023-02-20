@@ -1,3 +1,5 @@
+import time
+
 from Src.PageObjects.Pages.DashboardPage import DashboardPage
 from Src.PageObjects.Pages.LoginPage import LoginPage
 from Tests.Scripts.test_base import TestBase
@@ -19,6 +21,7 @@ class TestDashboard(TestBase):
         page_url = self.driver.current_url
         if page_url == TestData.ADMIN_MODULE_URL:
             self.dashboardPage.logger.info('Navigated to Admin module successfully')
+            time.sleep(2)
             self.driver.save_screenshot('./Screenshots/AdminModulePage.png')
         else:
             raise Exception
@@ -33,8 +36,13 @@ class TestDashboard(TestBase):
         try:
             assert self.driver.current_url == TestData.ADD_USER_PAGE_URL
             self.dashboardPage.logger.info('Navigated to Add user page successfully')
+            time.sleep(2)
             self.driver.save_screenshot('./Screenshots/AddUserPage.png')
         except Exception:
             raise AssertionError
 
+        ''' Adding New User'''
+        self.dashboardPage.logger.info('Adding New User is in progress')
+        self.dashboardPage.addNewUser()
+        self.driver.save_screenshot('./Screenshots/AddingUser.png')
         self.dashboardPage.logger.info(f'==== End of Test for {__name__} =====')
