@@ -22,10 +22,12 @@ AddBtn = (By.XPATH, "//button[contains(@class,'oxd-button') and contains(.,'Add'
 # ADDUSER_PAGE
 UserRoleDropDownArrow = (By.XPATH, "(//div[contains(@class,'oxd-select-text')]/i)[1]")
 UserRoleAdmin = (By.XPATH, "//div[@role='listbox']/div[@role='option' and contains(.,'Admin')]")
+UserSelected = (By.XPATH, "(//div[@class='oxd-select-text-input'])[1]")
 EmployeeName = (By.XPATH, "//div[contains(@class,'oxd-autocomplete-text-input')]/input")
 EmployeeNameSuggestions = (By.XPATH, "//div[@role='listbox']/div[@role='option']/span")
 StatusDropDownArrow = (By.XPATH, "(//div[contains(@class,'oxd-select-text')]/i)[2]")
 Status = (By.XPATH, "//div[@role='listbox']/div[@role='option' and contains(.,'Enabled')]")
+StatusSelected = (By.XPATH, "(//div[@class='oxd-select-text-input'])[2]")
 EmpUsername = (By.XPATH, "//label[contains(.,'Username')]/parent::div/following-sibling::div/input")
 Password = (By.XPATH, "(//label[contains(text(),'Password')]/parent::div/following-sibling::div/input)[1]")
 ConfirmPassword = (By.XPATH, "(//label[contains(text(),'Password')]/parent::div/following-sibling::div/input)[2]")

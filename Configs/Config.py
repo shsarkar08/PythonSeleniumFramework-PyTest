@@ -30,7 +30,8 @@ class TestData:
     RESET_PWD_SUCCESS = 'Reset Password link sent successfully'
 
     ADMIN_MODULE_TOPBAR_TEXT = 'AdminUser Management'
-    ADMIN_EMPLOYEE_NAME = 'Paul'
+    ADMIN_EMPLOYEE_NAME = 'Paul Collings'
+    EMPLOYEE_TEXT = 'pa'
     USER_ROLE = 'Admin'
     USER_STATUS = 'Enabled'
 

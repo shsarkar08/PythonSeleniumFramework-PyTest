@@ -44,5 +44,22 @@ class TestDashboard(TestBase):
         ''' Adding New User'''
         self.dashboardPage.logger.info('Adding New User is in progress')
         self.dashboardPage.addNewUser()
+
+        user_role = self.dashboardPage.findelement(PageLocators.UserSelected).text
+        self.dashboardPage.logger.info(f'User role selected as: {user_role}')
+        try:
+            assert user_role == TestData.USER_ROLE
+        except Exception as e:
+            self.dashboardPage.logger.fatal(e)
+            raise AssertionError
+
+        user_status = self.dashboardPage.findelement(PageLocators.StatusSelected).text
+        self.dashboardPage.logger.info(f'User status selected as: {user_status}')
+        try:
+            assert user_status == TestData.USER_STATUS
+        except Exception as e:
+            self.dashboardPage.logger.fatal(e)
+            raise AssertionError
+
         self.driver.save_screenshot('./Screenshots/AddingUser.png')
         self.dashboardPage.logger.info(f'==== End of Test for {__name__} =====')
