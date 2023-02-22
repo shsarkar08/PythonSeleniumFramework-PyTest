@@ -9,14 +9,15 @@ from Src.PageObjects.Locators import PageLocators
 
 class TestDashboard(TestBase):
 
-    def test_addUser(self):
+    def test_addNewUser(self):
         self.loginPage = LoginPage(self.driver)
         self.loginPage.launchURL()
         self.loginPage.adminLogin()
 
         self.dashboardPage = DashboardPage(self.driver)
         self.dashboardPage.logger.info('==== DashboardPage Test Begins =====')
-        ''' Navigate to Admin Module'''
+        ''' Navigate to Admin Module '''
+
         self.dashboardPage.navigateToAdminModule()
         page_url = self.driver.current_url
         if page_url == TestData.ADMIN_MODULE_URL:
@@ -31,7 +32,7 @@ class TestDashboard(TestBase):
         assert nav_header == TestData.ADMIN_MODULE_TOPBAR_TEXT
         self.dashboardPage.logger.info(f'Header: {nav_header}')
 
-        ''' Click on Add button from Admin Module'''
+        ''' Click on Add button from Admin Module '''
         self.dashboardPage.navigateToAddUser()
         try:
             assert self.driver.current_url == TestData.ADD_USER_PAGE_URL
@@ -41,9 +42,10 @@ class TestDashboard(TestBase):
         except Exception:
             raise AssertionError
 
-        ''' Adding New User'''
         self.dashboardPage.logger.info('Adding New User is in progress')
-        self.dashboardPage.addNewUser()
+
+        ''' Tests to check if User role & status set are correct '''
+        self.dashboardPage.setUserRoleAndStatus()
 
         user_role = self.dashboardPage.findelement(PageLocators.UserSelected).text
         self.dashboardPage.logger.info(f'User role selected as: {user_role}')
@@ -60,6 +62,12 @@ class TestDashboard(TestBase):
         except Exception as e:
             self.dashboardPage.logger.fatal(e)
             raise AssertionError
+
+        '''Set Password fields'''
+        self.dashboardPage.setPassword()
+
+        ''' Tests for Employee Name & Username '''
+        self.dashboardPage.setEmpNameAndUsername()
 
         self.driver.save_screenshot('./Screenshots/AddingUser.png')
         self.dashboardPage.logger.info(f'==== End of Test for {__name__} =====')

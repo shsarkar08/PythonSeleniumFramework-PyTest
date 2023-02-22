@@ -19,13 +19,18 @@ class DashboardPage(BasePage):
         self.logger.info(f'Navigated to URL: {self.driver.current_url}')
         # time.sleep(2)
 
-    def addNewUser(self):
+    def setUserRoleAndStatus(self):
         self.click(PageLocators.UserRoleDropDownArrow)
         self.click(PageLocators.UserRoleAdmin)
         self.click(PageLocators.StatusDropDownArrow)
         self.click(PageLocators.Status)
 
+    def setPassword(self):
         self.set_text_value(PageLocators.Password, TestData.PASSWORD)
         self.set_text_value(PageLocators.ConfirmPassword, TestData.PASSWORD)
 
+    def setEmpNameAndUsername(self):
+        username = TestData.USERNAME
+        self.set_text_value(PageLocators.EmpUsername, username)
+        self.logger.info(f'Username set as: {username}')
         time.sleep(5)
