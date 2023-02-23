@@ -31,7 +31,7 @@ class TestData:
 
     ADMIN_MODULE_TOPBAR_TEXT = 'AdminUser Management'
     ADMIN_EMPLOYEE_NAME = 'Paul Collings'
-    EMPLOYEE_TEXT = 'pa'
+    EMPLOYEE_TEXT = 'Pa'
     USER_ROLE = 'Admin'
     USER_STATUS = 'Enabled'
 

@@ -1,0 +1,16 @@
+2023-02-23 23:42:20,494 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:18] || ==== DashboardPage Test Begins =====
+2023-02-23 23:42:23,412 || INFO || DashboardPage.py -> navigateToAdminModule() -> [line:14] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2023-02-23 23:42:23,420 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:24] || Navigated to Admin module successfully
+2023-02-23 23:42:25,715 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:33] || Header: AdminUser Management
+2023-02-23 23:42:26,569 || INFO || DashboardPage.py -> navigateToAddUser() -> [line:19] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+2023-02-23 23:42:26,577 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:39] || Navigated to Add user page successfully
+2023-02-23 23:42:28,873 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:45] || Adding New User is in progress
+2023-02-23 23:42:29,357 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:51] || User role selected as: Admin
+2023-02-23 23:42:29,397 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:59] || User status selected as: Enabled
+2023-02-23 23:42:29,565 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Tracey2471
+2023-02-23 23:42:29,566 || INFO || DashboardPage.py -> setEmpNameAndUsername() -> [line:31] || Username set as: Tracey2471
+2023-02-23 23:42:29,681 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Pa
+2023-02-23 23:42:31,712 || INFO || DashboardPage.py -> setEmpNameAndUsername() -> [line:36] || Emp name suggestion count: 5
+2023-02-23 23:42:32,086 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: ShahTest#8
+2023-02-23 23:42:32,256 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: ShahTest#8
+2023-02-23 23:42:37,568 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:73] || ==== End of Test for Tests.Scripts.test_Dashboard =====

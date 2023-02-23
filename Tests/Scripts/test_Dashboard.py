@@ -63,11 +63,11 @@ class TestDashboard(TestBase):
             self.dashboardPage.logger.fatal(e)
             raise AssertionError
 
-        '''Set Password fields'''
-        self.dashboardPage.setPassword()
-
         ''' Tests for Employee Name & Username '''
         self.dashboardPage.setEmpNameAndUsername()
+
+        '''Set Password fields'''
+        self.dashboardPage.setPassword()
 
         self.driver.save_screenshot('./Screenshots/AddingUser.png')
         self.dashboardPage.logger.info(f'==== End of Test for {__name__} =====')
