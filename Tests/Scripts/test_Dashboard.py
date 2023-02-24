@@ -69,5 +69,15 @@ class TestDashboard(TestBase):
         '''Set Password fields'''
         self.dashboardPage.setPassword()
 
-        self.driver.save_screenshot('./Screenshots/AddingUser.png')
+        '''Add User'''
+        self.dashboardPage.addUser()
+        time.sleep(3)
+        try:
+            assert self.driver.current_url == TestData.ADMIN_MODULE_URL
+            self.dashboardPage.logger.info('User has been added successfully')
+
+            # self.driver.save_screenshot('./Screenshots/AddUserSuccess.png')
+        except Exception:
+            raise AssertionError
+
         self.dashboardPage.logger.info(f'==== End of Test for {__name__} =====')

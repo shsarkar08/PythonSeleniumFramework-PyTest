@@ -44,6 +44,7 @@ class DashboardPage(BasePage):
         self.set_text_value(PageLocators.Password, TestData.PASSWORD)
         self.set_text_value(PageLocators.ConfirmPassword, TestData.PASSWORD)
 
-        time.sleep(5)
-
-    # TO DO : implement Save user method & validation
+    def addUser(self):
+        self.click(PageLocators.SaveBtn)
+        time.sleep(3)
+        self.driver.save_screenshot('./Screenshots/AddUserSuccess.png')

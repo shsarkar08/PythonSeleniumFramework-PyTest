@@ -1,0 +1,17 @@
+2023-02-25 00:20:28,440 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:18] || ==== DashboardPage Test Begins =====
+2023-02-25 00:20:31,239 || INFO || DashboardPage.py -> navigateToAdminModule() -> [line:14] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2023-02-25 00:20:31,247 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:24] || Navigated to Admin module successfully
+2023-02-25 00:20:33,697 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:33] || Header: AdminUser Management
+2023-02-25 00:20:37,704 || INFO || DashboardPage.py -> navigateToAddUser() -> [line:19] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+2023-02-25 00:20:37,712 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:39] || Navigated to Add user page successfully
+2023-02-25 00:20:40,046 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:45] || Adding New User is in progress
+2023-02-25 00:20:40,430 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:51] || User role selected as: Admin
+2023-02-25 00:20:40,470 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:59] || User status selected as: Enabled
+2023-02-25 00:20:40,606 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Roberto766
+2023-02-25 00:20:40,606 || INFO || DashboardPage.py -> setEmpNameAndUsername() -> [line:31] || Username set as: Roberto766
+2023-02-25 00:20:40,690 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Pa
+2023-02-25 00:20:42,714 || INFO || DashboardPage.py -> setEmpNameAndUsername() -> [line:36] || Emp name suggestion count: 3
+2023-02-25 00:20:43,083 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: ShahTest#8
+2023-02-25 00:20:43,240 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: ShahTest#8
+2023-02-25 00:20:49,509 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:77] || User has been added successfully
+2023-02-25 00:20:49,509 || INFO || test_Dashboard.py -> test_addNewUser() -> [line:83] || ==== End of Test for Tests.Scripts.test_Dashboard =====
