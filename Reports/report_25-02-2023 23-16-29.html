@@ -439,7 +439,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>Test Automation Report</h1>
-    <p>Report generated on 12-Jan-2023 at 00:45:13 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 25-Feb-2023 at 23:17:06 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -458,8 +458,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Tester</td>
         <td>Shahnawaz</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 24.57 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 36.49 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -470,23 +470,36 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="failed results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">Tests/Scripts/test_ForgetPasswordPage.py::TestForgetPassword::test_resetPassword</td>
-          <td class="col-duration">24.46</td>
+          <td class="col-result">Failed</td>
+          <td class="col-name">Tests/Scripts/test_Dashboard.py::TestDashboard::test_addNewUser</td>
+          <td class="col-duration">35.98</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>
+            <div class="log">self = &lt;Tests.Scripts.test_Dashboard.TestDashboard object at 0x0000016EB88C71F0&gt;<br/><br/>    def test_addNewUser(self):<br/>        self.loginPage = LoginPage(self.driver)<br/>        self.loginPage.launchURL()<br/>        self.loginPage.adminLogin()<br/>    <br/>        self.dashboardPage = DashboardPage(self.driver)<br/>        self.dashboardPage.logger.info(&#x27;==== DashboardPage Test Begins =====&#x27;)<br/>        &#x27;&#x27;&#x27; Navigate to Admin Module &#x27;&#x27;&#x27;<br/>    <br/>        self.dashboardPage.navigateToAdminModule()<br/>        page_url = self.driver.current_url<br/>        if page_url == TestData.ADMIN_MODULE_URL:<br/>            self.dashboardPage.logger.info(&#x27;Navigated to Admin module successfully&#x27;)<br/>            time.sleep(2)<br/>            self.driver.save_screenshot(&#x27;./Screenshots/AdminModulePage.png&#x27;)<br/>        else:<br/>            raise Exception<br/>    <br/>        header = self.dashboardPage.findelement(PageLocators.AdminTopbarHeader).text<br/>        nav_header = self.dashboardPage.splitlines(header)<br/>        assert nav_header == TestData.ADMIN_MODULE_TOPBAR_TEXT<br/>        self.dashboardPage.logger.info(f&#x27;Header: {nav_header}&#x27;)<br/>    <br/>        &#x27;&#x27;&#x27; Click on Add button from Admin Module &#x27;&#x27;&#x27;<br/>        self.dashboardPage.navigateToAddUser()<br/>        try:<br/>            assert self.driver.current_url == TestData.ADD_USER_PAGE_URL<br/>            self.dashboardPage.logger.info(&#x27;Navigated to Add user page successfully&#x27;)<br/>            time.sleep(2)<br/>            self.driver.save_screenshot(&#x27;./Screenshots/AddUserPage.png&#x27;)<br/>        except Exception:<br/>            raise AssertionError<br/>    <br/>        self.dashboardPage.logger.info(&#x27;Adding New User is in progress&#x27;)<br/>    <br/>        &#x27;&#x27;&#x27; Tests to check if User role &amp; status set are correct &#x27;&#x27;&#x27;<br/>        self.dashboardPage.setUserRoleAndStatus()<br/>    <br/>        user_role = self.dashboardPage.findelement(PageLocators.UserSelected).text<br/>        self.dashboardPage.logger.info(f&#x27;User role selected as: {user_role}&#x27;)<br/>        try:<br/>            assert user_role == TestData.USER_ROLE<br/>        except Exception as e:<br/>            self.dashboardPage.logger.fatal(e)<br/>            raise AssertionError<br/>    <br/>        user_status = self.dashboardPage.findelement(PageLocators.StatusSelected).text<br/>        self.dashboardPage.logger.info(f&#x27;User status selected as: {user_status}&#x27;)<br/>        try:<br/>            assert user_status == TestData.USER_STATUS<br/>        except Exception as e:<br/>            self.dashboardPage.logger.fatal(e)<br/>            raise AssertionError<br/>    <br/>        &#x27;&#x27;&#x27; Tests for Employee Name &amp; Username &#x27;&#x27;&#x27;<br/>&gt;       self.dashboardPage.setEmpNameAndUsername()<br/><br/>Tests\Scripts\test_Dashboard.py:67: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;Src.PageObjects.Pages.DashboardPage.DashboardPage object at 0x0000016EB88AFD00&gt;<br/><br/>    def setEmpNameAndUsername(self):<br/>        username = TestData.USERNAME<br/>        self.set_text_value(PageLocators.EmpUsername, username)<br/>        self.logger.info(f&#x27;Username set as: {username}&#x27;)<br/>    <br/>        self.set_text_value(PageLocators.EmployeeName, TestData.EMPLOYEE_TEXT)<br/>        time.sleep(2)<br/>        emps = self.findelements(PageLocators.EmployeeNameSuggestions)<br/>        self.logger.info(f&#x27;Emp name suggestion count: {len(emps)}&#x27;)<br/>        for emp in emps:<br/>            flag = False<br/>            print(emp.text)<br/>            if emp.text == TestData.ADMIN_EMPLOYEE_NAME:<br/>                flag = True<br/>                emp.click()<br/>                break<br/>    <br/>        if not flag:<br/>            self.logger.error(&#x27;Employee Not found in Suggestions list&#x27;)<br/>&gt;           assert False<br/><span class="error">E           AssertionError</span><br/><br/>Src\PageObjects\Pages\DashboardPage.py:48: AssertionError<br/> -----------------------------Captured stdout setup------------------------------ <br/>
 Browser from getbrowser method: chrome 
-<br/> ------------------------------Captured stdout call------------------------------ <br/>2023-01-12 00:44:59,763 LoginPage.py: Launching OrangeHRM URL
-2023-01-12 00:45:01,952 LoginPage.py: OrangeHRM url launched successfully
-2023-01-12 00:45:01,958 test_ForgetPasswordPage.py: ==== ForgetPasswordPage Test Begins =====
-2023-01-12 00:45:02,414 ForgetPasswordPage.py: Navigating to Reset Password Page
-2023-01-12 00:45:04,420 test_ForgetPasswordPage.py: Navigated to Password Reset Successfully
-2023-01-12 00:45:06,647 BasePage.py: Entered Value: Derek8705
-2023-01-12 00:45:07,340 test_ForgetPasswordPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/sendPasswordReset
-2023-01-12 00:45:09,363 test_ForgetPasswordPage.py: Password Reset link has been sent
-2023-01-12 00:45:11,499 test_ForgetPasswordPage.py: ==== End of Test for Tests.Scripts.test_ForgetPasswordPage =====
+<br/> ------------------------------Captured stdout call------------------------------ <br/>2023-02-25 23:16:49,519 LoginPage.py: Launching OrangeHRM URL
+2023-02-25 23:16:51,836 LoginPage.py: OrangeHRM url launched successfully
+2023-02-25 23:16:51,933 BasePage.py: Entered Value: Admin
+2023-02-25 23:16:52,122 BasePage.py: Entered Value: admin123
+2023-02-25 23:16:53,338 LoginPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2023-02-25 23:16:53,361 test_Dashboard.py: ==== DashboardPage Test Begins =====
+2023-02-25 23:16:55,239 DashboardPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+2023-02-25 23:16:55,248 test_Dashboard.py: Navigated to Admin module successfully
+2023-02-25 23:16:57,628 test_Dashboard.py: Header: AdminUser Management
+2023-02-25 23:16:58,228 DashboardPage.py: Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+2023-02-25 23:16:58,240 test_Dashboard.py: Navigated to Add user page successfully
+2023-02-25 23:17:00,578 test_Dashboard.py: Adding New User is in progress
+2023-02-25 23:17:01,082 test_Dashboard.py: User role selected as: Admin
+2023-02-25 23:17:01,135 test_Dashboard.py: User status selected as: Enabled
+2023-02-25 23:17:01,305 BasePage.py: Entered Value: Adam5201
+2023-02-25 23:17:01,305 DashboardPage.py: Username set as: Adam5201
+2023-02-25 23:17:01,417 BasePage.py: Entered Value: Pa
+2023-02-25 23:17:03,441 DashboardPage.py: Emp name suggestion count: 3
+Patty Barrows
+Cecil Bonaparte
+Nina Patel
+2023-02-25 23:17:03,516 DashboardPage.py: Employee Not found in Suggestions list
 <br/></div></td></tr></tbody></table></body></html>

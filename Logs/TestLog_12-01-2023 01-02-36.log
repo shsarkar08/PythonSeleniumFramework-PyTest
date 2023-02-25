@@ -1,8 +1,0 @@
-2023-01-12 01:02:36,467 || INFO || test_LoginPage.py -> test_adminLogin() -> [line:12] || ==== LoginPage Test Begins =====
-2023-01-12 01:02:39,102 || INFO || LoginPage.py -> launchURL() -> [line:13] || Launching OrangeHRM URL
-2023-01-12 01:02:41,318 || INFO || LoginPage.py -> launchURL() -> [line:18] || OrangeHRM url launched successfully
-2023-01-12 01:02:41,367 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Admin
-2023-01-12 01:02:41,431 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: admin123
-2023-01-12 01:02:42,587 || INFO || LoginPage.py -> adminLogin() -> [line:28] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
-2023-01-12 01:02:42,592 || INFO || test_LoginPage.py -> test_adminLogin() -> [line:17] || Navigated to Dashboard Successfully
-2023-01-12 01:02:45,802 || INFO || test_LoginPage.py -> test_adminLogin() -> [line:22] || ==== End of Test for Tests.Scripts.test_LoginPage =====

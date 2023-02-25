@@ -1,3 +1,4 @@
+import sys
 import time
 
 from Src.BasePage.BasePage import BasePage
@@ -35,10 +36,16 @@ class DashboardPage(BasePage):
         emps = self.findelements(PageLocators.EmployeeNameSuggestions)
         self.logger.info(f'Emp name suggestion count: {len(emps)}')
         for emp in emps:
+            flag = False
             print(emp.text)
             if emp.text == TestData.ADMIN_EMPLOYEE_NAME:
+                flag = True
                 emp.click()
                 break
+
+        if not flag:
+            self.logger.error('Employee Not found in Suggestions list')
+            assert False
 
     def setPassword(self):
         self.set_text_value(PageLocators.Password, TestData.PASSWORD)

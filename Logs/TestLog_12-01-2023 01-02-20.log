@@ -1,7 +1,0 @@
-2023-01-12 01:02:20,904 || INFO || test_ForgetPasswordPage.py -> test_resetPassword() -> [line:16] || ==== ForgetPasswordPage Test Begins =====
-2023-01-12 01:02:21,368 || INFO || ForgetPasswordPage.py -> navigatePwdResetPage() -> [line:13] || Navigating to Reset Password Page
-2023-01-12 01:02:23,375 || INFO || test_ForgetPasswordPage.py -> test_resetPassword() -> [line:21] || Navigated to Password Reset Page Successfully
-2023-01-12 01:02:24,601 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Amy4642
-2023-01-12 01:02:25,281 || INFO || test_ForgetPasswordPage.py -> test_resetPassword() -> [line:28] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/sendPasswordReset
-2023-01-12 01:02:26,311 || INFO || test_ForgetPasswordPage.py -> test_resetPassword() -> [line:32] || Password Reset link has been sent
-2023-01-12 01:02:28,476 || INFO || test_ForgetPasswordPage.py -> test_resetPassword() -> [line:39] || ==== End of Test for Tests.Scripts.test_ForgetPasswordPage =====
