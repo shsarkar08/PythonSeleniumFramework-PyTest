@@ -12,7 +12,7 @@ handlers:
     stream: ext://sys.stdout
   file_handler:
     class: logging.FileHandler
-    filename: Logs/TestLog_25-02-2023 23-16-53.log
+    filename: Logs/TestLog_25-02-2023 23-37-11.log
     formatter: extended
     level: INFO
     mode: a
