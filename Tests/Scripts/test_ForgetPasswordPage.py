@@ -10,7 +10,7 @@ class TestForgetPassword(TestBase):
 
     def test_resetPassword(self):
         self.loginPage = LoginPage(self.driver)
-        self.loginPage.launchURL()
+        self.loginPage.launchURL(TestData.BASE_URL)
 
         self.forgetpasspage = ForgetPasswordPage(self.driver)
         self.forgetpasspage.logger.info('==== ForgetPasswordPage Test Begins =====')
@@ -24,7 +24,7 @@ class TestForgetPassword(TestBase):
         else:
             raise Exception
 
-        self.forgetpasspage.resetPassword()
+        self.forgetpasspage.resetPassword(TestData.USERNAME)
         self.forgetpasspage.logger.info(f'Navigated to URL: {self.driver.current_url}')
         time.sleep(1)
         success_text = self.forgetpasspage.findelement(PageLocators.resetPwdSuccessText).text

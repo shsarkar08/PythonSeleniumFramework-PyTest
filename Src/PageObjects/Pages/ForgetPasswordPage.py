@@ -13,6 +13,6 @@ class ForgetPasswordPage(BasePage):
         self.logger.info('Navigating to Reset Password Page')
         time.sleep(2)
 
-    def resetPassword(self):
-        self.set_text_value(PageLocators.Username, TestData.USERNAME)
+    def resetPassword(self, username):
+        self.set_text_value(PageLocators.Username, username)
         self.click(PageLocators.ResetBtn)
