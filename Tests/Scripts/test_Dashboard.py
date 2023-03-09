@@ -11,8 +11,8 @@ class TestDashboard(TestBase):
 
     def test_addNewUser(self):
         self.loginPage = LoginPage(self.driver)
-        self.loginPage.launchURL()
-        self.loginPage.adminLogin()
+        self.loginPage.launchURL(TestData.BASE_URL)
+        self.loginPage.adminLogin(TestData.ADMIN_USERNAME, TestData.ADMIN_PASSWORD)
 
         self.dashboardPage = DashboardPage(self.driver)
         self.dashboardPage.logger.info('==== DashboardPage Test Begins =====')
