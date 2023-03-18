@@ -17,4 +17,12 @@ class TestLoginDDT(TestBase):
         cols = ExcelUtils.getColumnCount(self.path, 'LoginData')
         print(f'No of columns: {cols}')
 
+        for row in range(2, rows+1):
+            username = ExcelUtils.readData(self.path, 'LoginData', row, 1)
+            password = ExcelUtils.readData(self.path, 'LoginData', row, 2)
+            exp_result = ExcelUtils.readData(self.path, 'LoginData', row, 3)
+
+            print(f'Username{row-1},Password{row-1} : {username},{password}')
+
+
 
