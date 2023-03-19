@@ -23,6 +23,3 @@ class TestLoginDDT(TestBase):
             exp_result = ExcelUtils.readData(self.path, 'LoginData', row, 3)
 
             print(f'Username{row-1},Password{row-1} : {username},{password}')
-
-
-

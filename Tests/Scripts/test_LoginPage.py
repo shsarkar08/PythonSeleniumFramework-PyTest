@@ -19,7 +19,7 @@ class TestLogin(TestBase):
             self.driver.save_screenshot('./Screenshots/LoginPage.png')
             self.loginPage.logger.info('OrangeHRM url launched successfully')
         else:
-            self.loginPage.logger.info('Unable to launch OrangeHRM url')
+            self.loginPage.logger.error('Unable to launch OrangeHRM url')
             self.driver.save_screenshot('./Screenshots/UrlLaunchErr.png')
             raise Exception
 
@@ -31,4 +31,8 @@ class TestLogin(TestBase):
             self.driver.save_screenshot('./Screenshots/DashBoardPage.png')
         else:
             raise Exception
+
+        self.loginPage.logout(TestData.LOGOUT_MENU)
+        time.sleep(2)
+
         self.loginPage.logger.info(f'==== End of Test for {__name__} =====')

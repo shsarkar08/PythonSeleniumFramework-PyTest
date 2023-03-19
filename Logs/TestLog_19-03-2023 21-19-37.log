@@ -1,0 +1,15 @@
+2023-03-19 21:19:37,597 || INFO || test_LoginPage.py -> test_adminLogin() -> [line:14] || ==== LoginPage Test Begins =====
+2023-03-19 21:19:43,347 || INFO || LoginPage.py -> launchURL() -> [line:12] || Launching OrangeHRM URL
+2023-03-19 21:19:45,559 || INFO || test_LoginPage.py -> test_adminLogin() -> [line:20] || OrangeHRM url launched successfully
+2023-03-19 21:19:45,607 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Admin
+2023-03-19 21:19:45,651 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: admin123
+2023-03-19 21:19:48,398 || INFO || LoginPage.py -> adminLogin() -> [line:19] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2023-03-19 21:19:48,406 || INFO || test_LoginPage.py -> test_adminLogin() -> [line:29] || Navigated to Dashboard Successfully
+2023-03-19 21:19:50,882 || INFO || LoginPage.py -> logout() -> [line:24] || Number of dropdown menus: 4
+2023-03-19 21:19:52,926 || INFO || LoginPage.py -> logout() -> [line:28] || About
+2023-03-19 21:19:52,961 || INFO || LoginPage.py -> logout() -> [line:28] || Support
+2023-03-19 21:19:52,988 || INFO || LoginPage.py -> logout() -> [line:28] || Change Password
+2023-03-19 21:19:53,019 || INFO || LoginPage.py -> logout() -> [line:28] || Logout
+2023-03-19 21:19:53,047 || INFO || LoginPage.py -> logout() -> [line:31] || Option to be clicked: Logout
+2023-03-19 21:19:54,419 || INFO || LoginPage.py -> logout() -> [line:35] || Logged out successfully
+2023-03-19 21:19:56,429 || INFO || test_LoginPage.py -> test_adminLogin() -> [line:38] || ==== End of Test for Tests.Scripts.test_LoginPage =====

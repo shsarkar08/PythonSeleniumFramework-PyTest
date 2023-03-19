@@ -18,6 +18,8 @@ resetPwdSuccessText = (By.XPATH, "//*[contains(@class,'orangehrm-forgot-password
 AdminModule = (By.XPATH, "//a[contains(@href,'viewAdminModule')]")
 AdminTopbarHeader = (By.XPATH, "//span[@class='oxd-topbar-header-breadcrumb']")
 AddBtn = (By.XPATH, "//button[contains(@class,'oxd-button') and contains(.,'Add')]")
+UserDropDownCaret = (By.XPATH, "//div[@class='oxd-topbar-header-userarea']//i[contains(@class,'userdropdown-icon')]")
+DropDownMenus = (By.XPATH, "//li[contains(@class,'userdropdown')]//ul[@role='menu']/li")
 
 # ADDUSER_PAGE
 UserRoleDropDownArrow = (By.XPATH, "(//div[contains(@class,'oxd-select-text')]/i)[1]")
