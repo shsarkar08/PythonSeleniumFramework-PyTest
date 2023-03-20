@@ -17,6 +17,7 @@ class TestData:
     ROOT_DIR = os.path.split(os.environ['VIRTUAL_ENV'])[0]
     # LOG_CONFIG_PATH = './Configs/LogConfig.yaml'
     LOG_CONFIG_PATH = f'{ROOT_DIR}/Configs/LogConfig.yaml'
+    EXCEL_DATA_PATH = f'{ROOT_DIR}/TestData/LoginDDT.xlsx'
 
     BASE_URL = 'https://opensource-demo.orangehrmlive.com/'
     DASHBOARD_URL = 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'
