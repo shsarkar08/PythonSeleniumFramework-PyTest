@@ -20,9 +20,9 @@ def readData(file, sheetname, rownum, columnnum):
     return sheet.cell(row=rownum, column=columnnum).value
 
 
-def writeData(file, sheetname, rownum, columnnum, data):
+def writeData(file, sheetname, rownum, columnnum, data, fgcolor):
     workbook = openpyxl.load_workbook(file)
     sheet = workbook[sheetname]
     sheet.cell(row=rownum, column=columnnum).value = data
-    sheet.cell(row=rownum, column=columnnum).fill = PatternFill(patternType='solid', fgColor="FFC300")
+    sheet.cell(row=rownum, column=columnnum).fill = PatternFill(patternType='solid', fgColor=fgcolor)
     workbook.save(file)
