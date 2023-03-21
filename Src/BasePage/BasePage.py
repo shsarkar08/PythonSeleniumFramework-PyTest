@@ -2,7 +2,6 @@ from selenium.common.exceptions import *
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as cond
 from Utilities.Logger_new import Pylog
-# from Utilities.Logger import Pylog
 
 
 class BasePage:
@@ -14,19 +13,29 @@ class BasePage:
     def launchurl(self, url):
         try:
             return self.driver.get(url)
-        except Exception:
-            self.logger.error('Unable to Launch URL', exc_info=True)
+        except Exception as e:
+            self.logger.error(f'Unable to Launch URL: {e}', exc_info=True)
 
     def findelement(self, locator_properties):
         try:
-            return self.driver.find_element(*locator_properties)
-        except NoSuchElementException:
+            elem = WebDriverWait(self.driver, 10).until(
+                cond.visibility_of_element_located(locator_properties))
+            return elem
+            # return self.driver.find_element(*locator_properties)
+
+        except TimeoutException:
+            # except NoSuchElementException:
             self.logger.error('Having trouble finding the element', exc_info=True)
 
     def findelements(self, locator_properties):
         try:
-            return self.driver.find_elements(*locator_properties)
-        except NoSuchElementException:
+            elem = WebDriverWait(self.driver, 10).until(
+                cond.visibility_of_all_elements_located(locator_properties))
+            return elem
+            # return self.driver.find_elements(*locator_properties)
+
+        except TimeoutException:
+            # except NoSuchElementException:
             self.logger.error('Having trouble finding the element', exc_info=True)
 
     def click(self, by_locator):
@@ -44,8 +53,8 @@ class BasePage:
             self.logger.info(f'Entered Value: {set_text}')
             return set_text
 
-        except Exception:
-            self.logger.error('Unable to set text', exc_info=True)
+        except Exception as e:
+            self.logger.error(f'Unable to set text: {e}', exc_info=True)
 
     def splitlines(self, value):
         return ''.join(value.splitlines())

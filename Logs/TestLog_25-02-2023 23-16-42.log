@@ -1,5 +1,0 @@
-2023-02-25 23:16:49,519 || INFO || LoginPage.py -> launchURL() -> [line:13] || Launching OrangeHRM URL
-2023-02-25 23:16:51,836 || INFO || LoginPage.py -> launchURL() -> [line:18] || OrangeHRM url launched successfully
-2023-02-25 23:16:51,933 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: Admin
-2023-02-25 23:16:52,122 || INFO || BasePage.py -> set_text_value() -> [line:44] || Entered Value: admin123
-2023-02-25 23:16:53,338 || INFO || LoginPage.py -> adminLogin() -> [line:28] || Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
